@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grdnt">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="15dp"
+                android:background="#00000000"
+                android:hint="Name"
+                android:textSize="24dp"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#d9e5f3"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/Adress"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:background="#00000000"
+                android:hint="Adress"
+                android:inputType="text"
+                android:textSize="24dp"
+                android:textColor="#fff"
+                android:textColorHint="#d9e5f3"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/Designation"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginLeft="15dp"
+                android:background="#00000000"
+                android:hint="Designation"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textSize="24dp"
+                android:textColorHint="#d9e5f3"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/Branch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="#00000000"
+                android:hint="Branch"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#d9e5f3"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="#00000000"
+                android:hint="mobile"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#d9e5f3"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="#00000000"
+                android:hint="Dd-Mm-YYYY"
+                android:inputType="text"
+                android:letterSpacing="0.1"
+                android:textColor="#fff"
+                android:textColorHint="#d9e5f3"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/qualification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="#00000000"
+                android:baselineAligned="false"
+                android:hint="Qualification"
+                android:inputType="text"
+                android:letterSpacing="0.1"
+                android:textColor="#fff"
+                android:textColorHint="#d9e5f3"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/blood_grp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="#00000000"
+                android:hint="Blood group"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#d9e5f3"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/passout_clg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="#00000000"
+                android:hint="Passout college"
+                android:inputType="text"
+                android:letterSpacing="0.1"
+                android:textColor="#fff"
+                android:textColorHint="#d9e5f3"
+                android:textSize="24dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#009a9a"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="send"
+                android:textColor="#d9e5f3"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#009a9a"
+
+                android:gravity="center"
+                android:text="Details"
+                android:textColor="#d9e5f3"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
